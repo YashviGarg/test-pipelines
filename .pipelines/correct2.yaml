@@ -1,5 +1,5 @@
 pipeline:
-  name: artifact-generation-test-2
+  name: artifact-generation-test
   registry: https://hub.docker.com/
   image: alpine:latest
   upload-repo: https://github.com/CS6510-SEA-SP25/t2-cicd
