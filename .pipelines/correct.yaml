@@ -1,5 +1,5 @@
 pipeline:
-  name: remote-pipeline-test
+  name: remote-pipeline
   registry: https://hub.docker.com/
   image: alpine:latest
   upload-repo: https://github.com/CS6510-SEA-SP25/t2-cicd
