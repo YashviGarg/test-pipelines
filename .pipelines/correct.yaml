@@ -20,6 +20,7 @@ pipeline:
       image: alpine:3.18
       script:
         - "ls -l artifacts"
+        - "pwd"
         - "cat artifacts/hello.txt"
         - "cat artifacts/info.txt"
         - "cat artifacts/timestamp.txt"
